@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T08:33:58.712Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="dG8lvcxGD7kai0h4f-tR" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-23T08:38:40.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="UFECCdMiCx605DKoyyDF" version="24.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="954" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="909" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -90,6 +90,67 @@
         </mxCell>
         <mxCell id="w26FszRFUsnfg0ACykAp-37" value="等待下一次任务循环" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1120" y="345" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w26FszRFUsnfg0ACykAp-38" target="w26FszRFUsnfg0ACykAp-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-38" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="-230" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w26FszRFUsnfg0ACykAp-39" target="w26FszRFUsnfg0ACykAp-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-39" value="提交点赞信息" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="-230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w26FszRFUsnfg0ACykAp-43" target="w26FszRFUsnfg0ACykAp-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w26FszRFUsnfg0ACykAp-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-43" value="判断数据库中是否存在点赞记录" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="-240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w26FszRFUsnfg0ACykAp-45" target="w26FszRFUsnfg0ACykAp-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-45" value="插入一条点赞记录" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="-230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-47" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="665" y="-230" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w26FszRFUsnfg0ACykAp-50" target="w26FszRFUsnfg0ACykAp-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-50" value="统计点赞总数" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="920" y="-230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w26FszRFUsnfg0ACykAp-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="-200.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-52" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;通知业务方更新点赞数&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1120" y="-230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="w26FszRFUsnfg0ACykAp-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="-170" as="sourcePoint" />
+            <mxPoint x="1380" y="-120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-55" value="业务方更新点赞数量" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1320" y="-230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-57" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1330" y="-70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w26FszRFUsnfg0ACykAp-59" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="-70" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
