@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2024-05-21T09:15:42.209Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="apM7gqkaG8sTYupHy04i" version="24.4.4" type="github">
+  <diagram name="第 1 页" id="iUR6BKbe1sqp53WztFf8">
+    <mxGraphModel dx="954" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SbSv2ZAMvV9m0PmPcT5j-2" value="学习记录id（id）" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SbSv2ZAMvV9m0PmPcT5j-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SbSv2ZAMvV9m0PmPcT5j-6" target="SbSv2ZAMvV9m0PmPcT5j-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="210" as="sourcePoint" />
+            <mxPoint x="370" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SbSv2ZAMvV9m0PmPcT5j-5" value="用户id（user_id）" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SbSv2ZAMvV9m0PmPcT5j-6" value="学习记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SbSv2ZAMvV9m0PmPcT5j-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SbSv2ZAMvV9m0PmPcT5j-6" target="SbSv2ZAMvV9m0PmPcT5j-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="230" as="sourcePoint" />
+            <mxPoint x="140" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SbSv2ZAMvV9m0PmPcT5j-9" value="课程id（lesson_id）" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SbSv2ZAMvV9m0PmPcT5j-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SbSv2ZAMvV9m0PmPcT5j-6" target="SbSv2ZAMvV9m0PmPcT5j-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="230" as="sourcePoint" />
+            <mxPoint x="290" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SbSv2ZAMvV9m0PmPcT5j-11" value="课程小节id（section_id）" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SbSv2ZAMvV9m0PmPcT5j-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="SbSv2ZAMvV9m0PmPcT5j-11" source="SbSv2ZAMvV9m0PmPcT5j-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="473.5" y="220" as="sourcePoint" />
+            <mxPoint x="433.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SbSv2ZAMvV9m0PmPcT5j-13" value="课程当前观看时间点（monent）" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SbSv2ZAMvV9m0PmPcT5j-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="SbSv2ZAMvV9m0PmPcT5j-13" source="SbSv2ZAMvV9m0PmPcT5j-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="697" y="360" as="sourcePoint" />
+            <mxPoint x="797" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SbSv2ZAMvV9m0PmPcT5j-15" value="是否完成学习（finished）" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SbSv2ZAMvV9m0PmPcT5j-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="SbSv2ZAMvV9m0PmPcT5j-15" source="SbSv2ZAMvV9m0PmPcT5j-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="246.5" y="280" as="sourcePoint" />
+            <mxPoint x="653.5" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
